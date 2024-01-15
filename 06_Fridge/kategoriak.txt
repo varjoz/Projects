@@ -1,0 +1,86 @@
+bovebben itt: 
+https://mennyikaloria.hu/kaloria-adatbazis/etelek-italok
+
+// kategoriak
+// pekaru
+// husok
+// zoldseg-gyumolcs
+// olaj-zsir
+// gabonafelek
+// tesztak
+// halak
+// szoszok
+// keszetelek
+// koretek
+// fuszerek
+// vitaminok
+// uditok
+// konzervek
+// nasik
+// edessegek
+
+
+-----------------------------
+alt="bread"
+id="pekaru" 
+src="Icons/pekaru.png" 
+
+alt="meats"
+id="husok" 
+src="Icons/husok.png" 
+
+alt="vegtables and fruits"
+id="zoldseg-gyumolcs"
+src="Icons/zoldsegek.png"
+
+alt="oil and fat"
+id="olaj"
+src="Icons/olaj-zsir.png"
+
+alt="wheat"
+id="gabonafelek"
+src="Icons/gabonafelek.png"
+
+alt="pasta"
+id="teszta" 
+src="Icons/teszta.png" 
+
+alt="fishes"
+id="halak" 
+src="Icons/halak.png" 
+
+alt="souces"
+id="szoszok"
+src="Icons/szoszok.png"
+
+alt="ready foods"
+id="keszetelek"
+src="Icons/keszetelek.png"
+
+alt="sides"
+id="koretek" 
+src="Icons/koretek.png" 
+
+alt="spices"
+id="fuszerek"
+src="Icons/fuszerek.png"
+
+alt="vitamins"
+id="vitaminok"
+src="Icons/vitaminok.png"
+
+alt="drinks"
+id="uditok" 
+src="Icons/uditok.png" 
+
+alt="cans"
+id="konzervek"
+src="Icons/konzerv.png"
+
+alt="snacks
+id="nasik" 
+src="Icons/nasik.png" 
+
+alt="sweets"
+id="edessegek"
+src="Icons/edessegek.png"

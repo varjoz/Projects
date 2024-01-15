@@ -1,0 +1,7 @@
+.hide {
+    display: none;
+}
+
+.torolt td, .torolt th {
+    text-decoration: line-through;
+}

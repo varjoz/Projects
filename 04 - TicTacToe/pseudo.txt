@@ -1,0 +1,14 @@
+Tabla megrajzolasa - tomb
+
+[megoldasok] tomb letrehozasa
+
+Jatek
+    kapcsolot csinalni, hogy kattintas utan valtakozzon a szimbolum 
+    kattintasra kirajzoltatni az adott cellaba az aktualis szimbolumot, majd jatekos valtas
+        onClick esemenyhez hozzafuzni egy ujabb DIV-et, ami az aktualis szombolumot adja hozza
+    osszehasonlitani a tomb aktualis allapotat a megoldasokkal
+        ha van egyezes, akkor vege a jateknak, ha nincs, akkor mehet tovabb
+        for ciklus majd if    
+    isPlayerX = !isPlayerX
+
+

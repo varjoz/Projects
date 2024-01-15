@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fridge</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+    </head>
+
+    <body>
+        <div class="fridge">
+            <div class="leftside">
+                <div class="leftside-button-wrapper">
+                    <!-- szures gomb -->
+                    <select name="filtration" id="filtration">
+                        <option value="szures">Szűrés</option>
+                        <option value="pekaru">Pékárú</option>
+                        <option value="husok">Húsok</option>
+                        <option value="zoldseg-gyumolcs">
+                            Zöldség, gyümölcs
+                        </option>
+                        <option value="olaj-zsir">Olaj, zsír</option>
+                        <option value="gabonafelek">Gabonafélék</option>
+                        <option value="tesztak">Tészták</option>
+                        <option value="halak">Halak</option>
+                        <option value="szoszok">Szószok</option>
+                        <option value="keszetelek">Készételek</option>
+                        <option value="koretek">Köretek</option>
+                        <option value="fuszerek">Fűszerek</option>
+                        <option value="vitaminok">Vitaminok</option>
+                        <option value="uditok">Üdítők</option>
+                        <option value="konzervek">Konzervek</option>
+                        <option value="nasik">Nasik</option>
+                        <option value="edessegek">Édességek</option>
+                    </select>
+                    <!-- Rendezes gomb -->
+                    <select name="order" id="order">
+                        <option value="rendezes">Rendezés</option>
+                        <option value="legregebbi">Legrégebbi</option>
+                        <option value="legujabb">Legúabb</option>
+                        <option value="csokkeno-ABC">
+                            Csökkenő ABC sorrend
+                        </option>
+                        <option value="novekvo-ABC">Növekvő ABC sorrend</option>
+                    </select>
+                </div>
+                <div class="inner-box">
+                    <!-- Tarolt elemek listaja -->
+                    <div class="itemlist" id="itemlist"></div>
+                </div>
+            </div>
+            <div class="zsanerok">
+                <div class="zsaner"></div>
+                <div class="zsaner"></div>
+            </div>
+
+            <div class="rightside">
+                <div class="inner-box">
+                    <!-- kategoriak -->
+                    <div class="kategoriak" id="kategoriak"></div>
+                </div>
+            </div>
+        </div>
+        <script src="fridge.js"></script>
+    </body>
+</html>

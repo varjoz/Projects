@@ -1,0 +1,184 @@
+.fridge {
+    width: 980px;
+    height: 737px;
+    margin: auto;
+    display: flex;
+}
+
+.leftside,
+.rightside {
+    background-color: #70f97d;
+    width: 480px;
+    height: 737px;
+    border-radius: 20px;
+}
+
+.zsanerok {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 737px;
+    justify-content: space-around;
+}
+
+.zsaner {
+    width: 20px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #70f97d;
+}
+
+.leftside-button-wrapper {
+    width: 440px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftside-button {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #513d94;
+}
+
+.inner-box {
+    width: 440px;
+    height: 660px;
+    border-radius: 20px;
+    background-color: #ebebeb;
+    margin: auto;
+    margin-top: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.rightside .inner-box {
+    margin-top: 60px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.kategoriak {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.kategoriak .kategoria {
+    width: 100px;
+    height: 100px;
+}
+
+.kategoria:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.kategoria:active {
+    opacity: 0.5;
+}
+
+.kategoria img {
+    width: 100px;
+    height: 100px;
+}
+
+select {
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.itemlist {
+}
+
+.item {
+    font-weight: bold;
+    position: relative;
+    width: 360px;
+    height: 130px;
+    display: flex;
+    padding: 10px;
+    border: solid 8px #9d9999;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+}
+
+.item-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item h2 {
+    font-size: 24px;
+}
+
+.item h3 {
+    font-size: 18px;
+}
+
+.item h4 {
+    font-size: 14px;
+}
+
+.actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.actions img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.warning {
+    display: none;
+}
+
+.expiring .warning {
+    display: inline;
+}
+
+/* .cog {
+    position: relative;
+} */
+
+.cog:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.cog:active {
+    opacity: 0.5;
+}
+
+.cogActions {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    display: none;
+}
+
+.cogActions p {
+    font-size: 18px;
+    border: 1px solid #9d9999;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.actions-opened .cogActions {
+    display: block;
+}

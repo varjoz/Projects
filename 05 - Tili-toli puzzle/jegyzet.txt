@@ -1,0 +1,36 @@
+Tabla megrajzolasa - tomb szamokkal es egy "semmivel"
+
+New game gomb
+    osszekeveri a tomb elemeit veletlenszeruen
+
+tomb elemenek athelyezese
+negyzet.onclick 
+    ki kell deriteni, hogy melyik negyzetre kattintottunk ra
+    az uj erteke "" lesz
+    ay ures mezo erteke legyen egyyenlo a kattintott mezovel
+
+
+mellette van?
+    a tomb indexet vizsgalom (i)
+    cserelheto a felette/alatt levovel, ha a 3-as osztasi maradek ugyanannyi
+    if (i%3) 
+    cserelheto a jobbra/ballra levovel, ha az kulonbseguk abszolut erteke egyyenlo
+
+/////////////////////////
+szomszedos?
+    indexek kulonbsegenek abszoluterteke =1
+    es 
+    maradekos osztasuk maradeka ugyanannyi
+    
+
+
+
+vizsgalat, h helyes-e a sorrend
+
+
+
+
+
+
+
+

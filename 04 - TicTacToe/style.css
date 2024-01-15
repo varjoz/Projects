@@ -1,0 +1,25 @@
+h1 {
+    color: darkviolet;
+}
+
+#container {
+    width: 318px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.negyzet {
+    border: 3px solid rgb(58, 71, 246);
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+

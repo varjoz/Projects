@@ -1,0 +1,77 @@
+h1 {
+    color: #406663;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 80px;
+} 
+
+/* miert nem enegedi novelni a meretet? */
+
+#container {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.negyzet {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0,0,0,.7);
+    margin: 5px;
+    border: 1px solid rgb(75, 75, 75);
+    background-color: rgb(242, 238, 117);
+    border-radius: 20px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+.negyzet.ures {
+    opacity: 0;
+}
+
+
+button {
+    display: block;
+    width: 328px;
+    margin: 20px 0;
+    padding: 10px;
+    background: #406663;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+.wrapper {
+    position: relative;
+}
+
+#win {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: rgba(0,0,0,.7);
+    color: white;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    display: none;
+
+}
+#win.win {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
